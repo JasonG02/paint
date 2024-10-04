@@ -32,6 +32,7 @@ nav {
   top: 0;
   background-color: red;
   z-index: 2;
+  padding: 1rem;
 }
 .list--li {
   height: 70px;
@@ -480,6 +481,9 @@ a.footer {
   .logo-name {
     font-size: 15px;
   }
+   .links--container{
+    padding: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -555,5 +559,8 @@ a.footer {
   }
   .service-container {
     width: 85%;
+  }
+  .links--container{
+    padding: 0;
   }
 }
